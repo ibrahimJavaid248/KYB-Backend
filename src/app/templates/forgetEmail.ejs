@@ -1,0 +1,8 @@
+<!-- emailTemplate.ejs -->
+<h1>Dear <%= user.name %>,</h1>
+<p>We received a request to reset your account password.</p>
+<p>Please reset your password by clicking the button below:</p>
+<button style="background-color: #4caf50; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="<%= resetUrl %>" style="text-decoration: none; color: inherit;">Reset Password</a>
+</button>
+<p>If you did not request a password reset, you can ignore this email.</p>
